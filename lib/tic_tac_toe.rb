@@ -6,8 +6,7 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-fake_board = ["", "", "", "", "", "", "", "", ""]
-display_board(fake_board)
+
 
 WIN_COMBINATIONS = [
   [0,1,2],
