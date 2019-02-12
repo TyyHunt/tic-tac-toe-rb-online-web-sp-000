@@ -123,7 +123,7 @@ def play(board)
   if over?(board)
     winner(board)
   else draw?(board)
-    puts "This is a draw"
+    puts "Cats Game!"
   end
 end
 end
