@@ -81,12 +81,7 @@ def won?(board)
     position_1 = board[win_index_1]
     position_2 = board[win_index_2]
     position_3 = board[win_index_3]
-  end
-   if position_1 == position_2 && position_2 == position_3 && position_taken?(board, win_index_1)
-     return true
-   else
-     return false
-   end
+    position_1 == position_2 && position_2 == position_3 && position_taken?(board, win_index_1)
 end
 
 def full?(board)
