@@ -123,6 +123,6 @@ def play(board)
   if over?(board)
     winner(board)
   else draw?(board)
-    puts "This game is a draw"
+    return "This game is a draw"
   end
 end
