@@ -125,6 +125,6 @@ def play(board)
   if over?(board)
     winner(board)
   else draw?(board)
-    puts "Cats Game!"
+    puts "Cat's Game!"
   end
 end
